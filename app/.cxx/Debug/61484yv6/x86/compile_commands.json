@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/habib/Workspace/Work/LowercaseProject/app/.cxx/Debug/61484yv6/x86",
+  "command": "/home/habib/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android24 --gcc-toolchain=/home/habib/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/habib/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dlowercaseproject_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/lowercaseproject.dir/native-lib.cpp.o -c /home/habib/Workspace/Work/LowercaseProject/app/src/main/cpp/native-lib.cpp",
+  "file": "/home/habib/Workspace/Work/LowercaseProject/app/src/main/cpp/native-lib.cpp"
+}
+]

@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/home/habib/Workspace/Work/LowercaseProject/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/habib/Android/Sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/home/habib/Workspace/Work/LowercaseProject/app/.cxx/Debug/61484yv6/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/habib/Android/Sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/home/habib/Workspace/Work/LowercaseProject/app/.cxx/Debug/61484yv6/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "lowercaseproject::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "lowercaseproject",
+      "output": "/home/habib/Workspace/Work/LowercaseProject/app/build/intermediates/cxx/Debug/61484yv6/obj/x86/liblowercaseproject.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/habib/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/habib/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
