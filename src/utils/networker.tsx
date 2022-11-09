@@ -16,13 +16,6 @@ export default class NetworkerUtils {
     });
   }
 
-  leaveSwarm(discoveryKey: string) {
-    this.networker.configure(Buffer.from(discoveryKey, 'hex'), {
-      announce: false,
-      lookup: false,
-    });
-  }
-
   async shutdownSwarm() {
     await this.networker.close();
   }
