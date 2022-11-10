@@ -5,5 +5,6 @@ export interface Club {
 }
 
 export interface UserDetails {
-  club: Club;
+  club?: Club;
+  type: 'driver' | 'customer' | 'merchant';
 }

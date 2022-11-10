@@ -19,5 +19,6 @@ const user: User = {
       xp: 100,
       status: 'active',
     },
+    type: 'driver',
   },
 };
