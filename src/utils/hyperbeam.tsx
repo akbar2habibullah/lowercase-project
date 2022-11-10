@@ -15,7 +15,7 @@ export default class HyperbeamUtils {
     this.beam = async_param.beam;
     this.key = async_param.key;
 
-    this.beam.on('remote-address', function ({host, port}) {
+    this.beam.on('remote-address', ({host, port}: any) => {
       if (!host) {
         console.error('[hyperbeam] Could not detect remote address');
       } else {
