@@ -2,7 +2,7 @@ import type {BasicInfo} from './types/basic';
 import type {UserDetails} from './types/details';
 export interface User {
   basic: BasicInfo;
-  details: UserDetails;
+  details?: UserDetails;
 }
 
 // example usage
