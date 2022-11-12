@@ -1,4 +1,32 @@
 {
-  "name": "LowercaseProject",
-  "displayName": "LowercaseProject"
+	"expo": {
+		"name": "LowercaseProject",
+		"slug": "LowercaseProject",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#FFFFFF"
+			},
+			"permissions": ["INTERNET", "CAMERA", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE", "USE_FINE_LOCATION", "ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		}
+	}
 }
