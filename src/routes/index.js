@@ -1,8 +1,8 @@
 import HomeScreen from '../pages'
-import ScanQrScreen from '../pages/scanQR'
+import QrScreen from '../pages/qr'
 
 export default [
 	{ path: '/', component: HomeScreen },
 	{ path: '/home', component: HomeScreen },
-	{ path: '/scan-qr', component: ScanQrScreen },
+	{ path: '/scan-qr', component: QrScreen },
 ]

@@ -23,10 +23,24 @@
 				"foregroundImage": "./assets/adaptive-icon.png",
 				"backgroundColor": "#FFFFFF"
 			},
-			"permissions": ["INTERNET", "CAMERA", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE", "USE_FINE_LOCATION", "ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+			"permissions": ["INTERNET", "CAMERA", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE", "USE_FINE_LOCATION", "ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION", "USE_BIOMETRIC", "USE_FINGERPRINT"],
+			"package": "com.akbar2habibullah.LowercaseProject"
 		},
 		"web": {
 			"favicon": "./assets/favicon.png"
-		}
+		},
+		"extra": {
+			"eas": {
+				"projectId": "91ce5c73-1e54-4d4b-944d-00f38411515c"
+			}
+		},
+		"plugins": [
+			[
+				"@rnmapbox/maps",
+				{
+					"RNMapboxMapsImpl": "maplibre"
+				}
+			]
+		]
 	}
 }
